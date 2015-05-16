@@ -20,6 +20,10 @@ function familyFunction()
 
     console.log("\nArray with Push:");
 
+    family.push("Grace", "Vivianna");
+    descriptions.push("Oldest Stepsister", "Older Stepsister");
+
+
 }
 
 // Main Code
