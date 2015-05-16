@@ -18,6 +18,8 @@ function familyFunction()
         console.log( family[i] + " is my " + descriptions[i] + ".");
     }
 
+    console.log("\nArray with Push:");
+
 }
 
 // Main Code
