@@ -12,6 +12,12 @@ function familyFunction()
 {
     var family = ["Fernando", "Maritza", "Irmarie", "Nicolle", "Jakob", "Camila"];
     var descriptions = ["Father", "Mother", "Oldest Sister", "Older Sister", "Nephew", "Niece"];
+
+    for(var i = 0; i < family.length; i++)
+    {
+        console.log( family[i] + " is my " + descriptions[i] + ".");
+    }
+
 }
 
 // Main Code
