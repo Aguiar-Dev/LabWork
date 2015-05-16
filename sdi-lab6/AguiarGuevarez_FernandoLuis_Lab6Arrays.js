@@ -23,7 +23,10 @@ function familyFunction()
     family.push("Grace", "Vivianna");
     descriptions.push("Oldest Stepsister", "Older Stepsister");
 
-
+    for(var i = 0; i < family.length; i++)
+    {
+        console.log(family[i] + " is my " + descriptions[i]);
+    }
 }
 
 // Main Code
