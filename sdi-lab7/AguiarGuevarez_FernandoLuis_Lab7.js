@@ -20,15 +20,18 @@ function bubbleFunction(accArray)
 {
     var length = accArray.length;
 
-    
-        for (var i = 0; i < length; i++) {
-            if (accArray[i] > accArray[i + 1]) {
-                var subArray = accArray[i];
-                accArray[i] = accArray[i + 1];
-                accArray[i + 1] = subArray;
-                loopEnd = true;
+    for(var i = 0; i < length; i++)
+    {
+        for (var j = 0; j < length; j++)
+        {
+            if (accArray[j] > accArray[j + 1])
+            {
+                var subArray = accArray[j];
+                accArray[j] = accArray[j + 1];
+                accArray[j + 1] = subArray;
             }
         }
+    }
 
     return accArray;
 }
