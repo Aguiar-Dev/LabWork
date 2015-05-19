@@ -19,11 +19,13 @@ var orderedArray;
 function bubbleFunction(accArray)
 {
 
-
 }
 
 //Main Code
 
+console.log("The first array is: " + array1);
+console.log("The second array is: " + array2);
+console.log("The third array is: " + array3 + "\n\n");
 
 for(var i = 0; i < 3; i++)
 {
