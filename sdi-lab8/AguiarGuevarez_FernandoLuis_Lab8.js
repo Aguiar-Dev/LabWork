@@ -59,10 +59,26 @@ var returnedString;
 
 function stringFix(list, separator1, separator2)
 {
+    //local variables
     var newList;
     var newSeparator = "";
 
     newList = list.split(separator1);
+
+    for(var j = 0; j < newList.length; j++)
+    {
+        if(j === (newList.length - 1))
+        {
+            newSeparator = newSeparator + newList[j];
+        }
+        else
+        {
+            newSeparator = newSeparator + newList[j] + separator2;
+        }
+    }
+    newSeparator.toUpperCase();
+    return newSeparator;
+
 }
 
 //main code
