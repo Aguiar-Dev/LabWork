@@ -59,7 +59,13 @@ var returnedString;
 
 function stringFix(list, separator1, separator2)
 {
+    var newList;
+    var newSeparator = "";
+
+    newList = list.split(separator1);
 }
 
 //main code
 
+returnedString = stringFix(stringList, stringSeparator, stringSeparator2);
+console.log("The ranking system in Gamerpocalypse is as follows: " + returnedString + ". You are currently ranked at Noob.");
