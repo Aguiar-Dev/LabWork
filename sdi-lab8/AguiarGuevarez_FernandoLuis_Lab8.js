@@ -16,7 +16,18 @@ var emailPrompt;
 
 function checkEmail(email)
 {
+    var checkAt = email.indexOf("@");
+    var checkAtAgain = email.lastIndexOf("@");
+    var atSymbol;
 
+    if(checkAt >= 0 && checkAtAgain === checkAt)
+    {
+        atSymbol = true;
+    }
+    else
+    {
+        atSymbol = false;
+    }
 }
 
  //main code
