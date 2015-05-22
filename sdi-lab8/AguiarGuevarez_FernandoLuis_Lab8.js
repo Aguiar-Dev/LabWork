@@ -12,7 +12,7 @@
 
 var emailPrompt;
 
- function
+ //function
 
 function checkEmail(email)
 {
@@ -45,4 +45,21 @@ emailPrompt = prompt("Please enter an email:");
 
 checkEmail(emailPrompt);
 
+
+//Problem 2
+
+//global variables
+
+var stringList = "Noob,Scrub,Player,Gamer,MLG";
+var stringSeparator = ",";
+var stringSeparator2 = "/";
+var returnedString;
+
+//function
+
+function stringFix(list, separator1, separator2)
+{
+}
+
+//main code
 
