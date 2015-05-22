@@ -28,6 +28,15 @@ function checkEmail(email)
     {
         atSymbol = false;
     }
+    if( atSymbol === false || email.indexOf(".") <= 0 || email.indexOf(" ") >= 0)
+    {
+        console.log("The email " + email + " is not a valid email.");
+    }
+
+    else
+    {
+        console.log("The email " + email + " is a valid email.");
+    }
 }
 
  //main code
