@@ -20,6 +20,12 @@ function decimalFormat(userNumber, decimalFormater)
 {
 }
 
+//main code
+formatNumber = parseFloat(prompt("Please enter a number to format:", "Type in here"));
+decimalNumber = parseInt(prompt("Please enter the amount of decimal places you want:", "Type in here"));
 
+returnedNumber = decimalFormat(formatNumber, decimalNumber);
+
+console.log("You entered the number " + formatNumber + " and it was formatted into " + returnedNumber + ".");
 
 
