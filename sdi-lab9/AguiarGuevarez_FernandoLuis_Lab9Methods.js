@@ -18,6 +18,8 @@ var returnedNumber;
 //function
 function decimalFormat(userNumber, decimalFormater)
 {
+    newNumber = userNumber.toFixed(decimalFormater);
+    return newNumber;
 }
 
 //main code
