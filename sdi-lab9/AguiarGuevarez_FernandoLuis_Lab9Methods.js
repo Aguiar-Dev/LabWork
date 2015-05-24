@@ -10,7 +10,7 @@
 ////Problem 1
 
 //global variables
-
+//
 //var formatNumber;
 //var decimalNumber;
 //var returnedNumber;
@@ -34,30 +34,49 @@
 
 ////Problem 2
 
+////global variables
+//
+//var stringNumber;
+//var numberReturn;
+//
+////function
+//function givingNumber(userNumber)
+//{
+//    while (isNaN(userNumber))
+//    {
+//        userNumber = prompt("Please, you silly billy, enter a real number:", "Type in here. NOW!");
+//    }
+//    var val = userNumber;
+//
+//    newNumber = Number(val);
+//
+//    return newNumber;
+//}
+//
+////main code
+//stringNumber = prompt("Please enter a number:", "Type in here");
+//
+//numberReturn = givingNumber(stringNumber);
+//
+//console.log("We added color to your number and we made it a number data type here it is: ");
+//console.log(numberReturn);
+
+
+////Problem 3
+
 //global variables
 
-var stringNumber;
-var numberReturn;
+var date1 = "5/20/2000";
+var date2 = "5/20/1998";
+var hoursDays;
+var returnedDiff;
 
 //function
-function givingNumber(userNumber)
+
+function dateDiff(time1, time2, timeType)
 {
-    while (isNaN(userNumber))
-    {
-        userNumber = prompt("Please, you silly billy, enter a real number:", "Type in here. NOW!");
-    }
-    var val = userNumber;
 
-    newNumber = Number(val);
-
-    return newNumber;
 }
 
-//main code
-stringNumber = prompt("Please enter a number:", "Type in here");
 
-numberReturn = givingNumber(stringNumber);
-
-console.log("We added color to your number and we made it a number data type here it is: ");
-console.log(numberReturn);
 
