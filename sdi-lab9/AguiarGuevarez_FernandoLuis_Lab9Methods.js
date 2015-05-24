@@ -75,7 +75,23 @@ var returnedDiff;
 
 function dateDiff(time1, time2, timeType)
 {
+//local variables
+    var newDate = new Date(time1);
+    var secondDate = new Date(time2);
 
+//function code
+    diffDate = newDate - secondDate;
+
+    if(timeType === "hours")
+    {
+        diffDate = Math.abs(diffDate / 1000 / 60 / 60);
+    }
+    else if(timeType === "days")
+    {
+        diffDate = Math.abs(diffDate / 1000 / 60 / 60 / 24);
+    }
+
+    return diffDate;
 }
 
 //main code
