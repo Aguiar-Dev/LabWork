@@ -78,5 +78,10 @@ function dateDiff(time1, time2, timeType)
 
 }
 
+//main code
+hoursDays = prompt("Please choose whether you want the difference of dates in hours or days.", "hours or days");
 
+returnedDiff = dateDiff(date1, date2, hoursDays);
+
+console.log("The dates are " + date1 + " and " + date2 + ". The difference is " + returnedDiff + ".");
 
