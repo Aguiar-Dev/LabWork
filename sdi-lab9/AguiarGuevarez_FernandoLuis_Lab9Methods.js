@@ -42,7 +42,15 @@ var numberReturn;
 //function
 function givingNumber(userNumber)
 {
+    while (isNaN(userNumber))
+    {
+        userNumber = prompt("Please, you silly billy, enter a real number:", "Type in here. NOW!");
+    }
+    var val = userNumber;
 
+    newNumber = Number(val);
+
+    return newNumber;
 }
 
 //main code
