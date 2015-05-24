@@ -46,5 +46,10 @@ function givingNumber(userNumber)
 }
 
 //main code
+stringNumber = prompt("Please enter a number:", "Type in here");
 
+numberReturn = givingNumber(stringNumber);
+
+console.log("We added color to your number and we made it a number data type here it is: ");
+console.log(numberReturn);
 
