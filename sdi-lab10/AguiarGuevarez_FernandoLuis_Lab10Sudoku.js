@@ -15,17 +15,23 @@ var returnedResult;
 function lotteryFunk(userOpt)
 {
     //local variables
-    var floridaLottery;
-    var powerBall;
+    var floridaLottery = [];
+    var powerBall = [];
     var newNumbers;
 
     //conditionals
     if(userOpt === "FL")
     {
+        for(var i = 0; i < 6; i++)
+        {
+        }
 
     }
     else if(userOpt === "PB")
     {
+        for(var i = 0; i < 4; i++)
+        {
+        }
 
     }
 
@@ -36,3 +42,4 @@ function lotteryFunk(userOpt)
 userPick = prompt("Do you want a Quick Pick from the Powerball Numbers or the Florida Lottery Numbers? Write FL for the Florida lottery or write PB for the Powerball Numbers.", "Write in here");
 
 returnedResult = lotteryFunk(userPick);
+
