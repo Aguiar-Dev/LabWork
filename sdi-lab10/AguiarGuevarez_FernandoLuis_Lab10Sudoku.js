@@ -43,3 +43,11 @@ userPick = prompt("Do you want a Quick Pick from the Powerball Numbers or the Fl
 
 returnedResult = lotteryFunk(userPick);
 
+if(userPick === "FL")
+{
+    console.log("You picked the Florida Lottery and the numbers you got from the quick pick are " + returnedResult);
+}
+else if(userPick === "PB")
+{
+    console.log("You picked Powerball and the numbers you got from the quick pick are " + returnedResult);
+}
