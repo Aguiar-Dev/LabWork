@@ -33,8 +33,12 @@ function lotteryFunk(userOpt)
     {
         for(var i = 0; i < 4; i++)
         {
+            powerBall.push(Math.round((Math.random() * 59) + 1));
         }
+        powerBall.push(Math.round((Math.random() * 35) + 1));
 
+        newNumbers = powerBall;
+        return newNumbers;
     }
 
 }
