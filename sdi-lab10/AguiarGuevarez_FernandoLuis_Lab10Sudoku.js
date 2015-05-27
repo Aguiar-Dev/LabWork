@@ -24,8 +24,10 @@ function lotteryFunk(userOpt)
     {
         for(var i = 0; i < 6; i++)
         {
+            floridaLottery.push(Math.round((Math.random() * 53) + 1));
         }
-
+        newNumbers = floridaLottery;
+        return newNumbers;
     }
     else if(userOpt === "PB")
     {
