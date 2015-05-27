@@ -12,8 +12,22 @@ var userPick;
 var returnedResult;
 
 //function
-function lotteryFunk()
+function lotteryFunk(userOpt)
 {
+    //local variables
+    var floridaLottery;
+    var powerBall;
+    var newNumbers;
+
+    //conditionals
+    if(userOpt === "FL")
+    {
+
+    }
+    else if(userOpt === "PB")
+    {
+
+    }
 
 }
 
